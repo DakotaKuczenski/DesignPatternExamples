@@ -1,0 +1,3 @@
+We are going to create a Strategy interface defining an action and concrete strategy classes implementing the Strategy interface. Context is a class which uses a Strategy.
+
+Duck.java, our demo class, will use Context and strategy objects to demonstrate change in Context behaviour based on strategy it deploys or uses.
