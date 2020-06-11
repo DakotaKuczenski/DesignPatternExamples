@@ -4,7 +4,7 @@ public class Duck {
         Context context = new Context(new RubberDuck());
         System.out.println(context.executeStrategy());
         
-        System.out.println("Hello World");
+        System.out.println("Strategy Pattern");
     }
 }
 
