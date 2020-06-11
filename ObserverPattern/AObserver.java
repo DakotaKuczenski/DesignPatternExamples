@@ -1,6 +1,6 @@
 public class AObserver extends Observer{
 
-    public BinaryObserver(Subject subject){
+    public AObserver(Subject subject){
        this.subject = subject;
        this.subject.attach(this);
     }
