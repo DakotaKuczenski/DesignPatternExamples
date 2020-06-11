@@ -3,7 +3,8 @@ public class Driver {
     public static void main(String[] args) {
        Subject subject = new Subject();
  
-       new AObserver(subject);
+       new BlueObserver(subject);
+       new RedObserver(subject);
 
  
        System.out.println("First state change: 15");	
